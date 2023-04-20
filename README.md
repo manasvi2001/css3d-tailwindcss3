@@ -6,6 +6,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Custom plugin for extension of tailwindcss to use css3d properties
+## Custom plugin for extension of tailwindcss v3 to use css3d properties
 
 You can find the plugin in the path `plugins/transform-3d.js`
