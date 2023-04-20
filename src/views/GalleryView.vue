@@ -55,28 +55,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { ref } from "vue";
-
-const prevAnim = ref("front");
-const animate = ref({
-  left: false,
-  right: false,
-  top: false,
-  bottom: false,
-  front: false,
-  back: false,
-});
-const handleAnimation = (value) => {
-  animate.value[prevAnim.value] = false;
-  animate.value[value] = true;
-  prevAnim.value = value;
-};
-</script>
-
-<style scoped>
-/* div[data-name="cube"] {
-  transform: rotateX(45deg);
-} */
-</style>
